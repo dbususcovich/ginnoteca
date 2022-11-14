@@ -1,0 +1,71 @@
+
+/* Dispositivos chicos menores a 600px */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+} 
+
+
+
+body{
+  background-color: burlywood;
+  text-align: center;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+}
+
+header {
+  font-size: large;
+  display: grid;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+a{
+  background-color:burlywood;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+footer ul li a img{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+iframe{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  flex-direction: column;
+
+}
+
+footer{
+  margin-top: 3em;
+}
+
+
