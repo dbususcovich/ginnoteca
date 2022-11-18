@@ -18,3 +18,7 @@ body {
   flex-direction: column;
   min-width: 100vh;
 }
+
+.acomodar {
+  align-items: flex-end
+}
