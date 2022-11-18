@@ -22,3 +22,22 @@ body {
 .acomodar {
   align-items: flex-end
 }
+
+footer ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  display: inline-flex;
+  color: whitesmoke;
+  padding: 0px 25px 0px 20px;  
+}
+
+img{
+
+}
