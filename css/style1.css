@@ -1,17 +1,16 @@
-
 /* Dispositivos chicos menores a 600px */
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-html{
+html {
   font-size: 62.5%;
-} 
+}
 
 
 
-body{
+body {
   background-color: burlywood;
   text-align: center;
   font-weight: bolder;
@@ -30,22 +29,18 @@ nav ul li {
   list-style-type: none;
 }
 
-a{
-  color:white;
+a {
+  background-color: burlywood;
   text-decoration: none;
 }
 
-a{
-  background-color:burlywood;
-  text-decoration: none;
-}
-
-img{
+img {
   width: 100%;
   height: auto;
+
 }
 
-footer ul li a img{
+footer ul li a img {
   width: 32px;
   height: 32px;
   display: inline-block;
@@ -56,7 +51,7 @@ footer ul li {
   list-style-type: none;
 }
 
-iframe{
+iframe {
   width: auto;
   height: auto;
   display: inline-block;
@@ -64,8 +59,6 @@ iframe{
 
 }
 
-footer{
+footer {
   margin-top: 3em;
 }
-
-
