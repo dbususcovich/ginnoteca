@@ -38,6 +38,8 @@ a {
   padding: 0px 25px 0px 20px;  
 }
 
-img{
 
+img {
+  width: 90vh;
+  height: 100%;
 }
