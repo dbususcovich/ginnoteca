@@ -11,7 +11,7 @@ html {
 @media (min-width: 0px) {
 
   body {
-    background-color: burlywood;
+    background-color: grey;
     font-weight: bolder;
     list-style: none;
     display: flex;
@@ -19,13 +19,27 @@ html {
     justify-content: center;
   }
 
-  h1,
-  h2 {
+
+form{
+  width: 50vw; 
+  margin-left: 25vw;
+}
+
+
+  h1, h2{
+    padding: 1rem 0 1rem 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: auto;
     margin: auto;
+  }
+  h2 {
+    color: white;
+  }
+  
+  p{
+    margin: 2%;
   }
 
   a{
@@ -44,13 +58,14 @@ html {
   }
 
   div img {
-    width: 100%;
+    width:100%;
     height: auto;
   }
 
   iframe {
     width: 100%;
     height: auto;
+    border-radius: 10px;
   }
 
   footer ul li a {
@@ -87,4 +102,6 @@ html {
 
 
   /* Dispositivos chicos mayores a 1024 */
-  @media (min-width: 1024px) {}
+  @media (min-width: 1024px) {
+
+  }
