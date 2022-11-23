@@ -167,11 +167,11 @@ a{
       "img img"
       "img img";
       grid-template-columns: 1fr 1fr;
+      padding: 10px;
+      margin: 25px;
+      gap: 25px;
       }
 
-      .centrarMM {
-      weight: 25vh;
-      height: auto;
-      }
+
 
   }
