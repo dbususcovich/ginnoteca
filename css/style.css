@@ -6,6 +6,7 @@
 body {
   background-color: grey;
   font-size: medium;
+  font-weight: bolder;
 }
 
 h1, h2 {
@@ -31,22 +32,15 @@ form {
   margin-left: 25vw;
 }
 
+.form {
+  border-radius: 2px solid red;
+  display: block;
+  text-align: center;
+  padding: 2vh;
+}
+
 /* Dispositivos chicos menores a 576 */
 @media (min-width: 0px) {
-  body {
-    font-weight: bolder;
-  }
-  h1, h2 {
-    padding: 1rem 0 1rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: auto;
-    margin: auto;
-  }
-  h2 {
-    color: white;
-  }
   p {
     margin: 2%;
   }
@@ -80,12 +74,8 @@ form {
     width: 32px;
   }
   footer ul li a img {
-    width: 10vh;
-  }
-  section div .box img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    margin-top: 2vh;
+    width: 6vh;
   }
   header {
     grid-area: header;
